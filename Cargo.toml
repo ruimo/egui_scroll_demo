@@ -1,0 +1,12 @@
+[package]
+name = "sample"
+version = "0.1.0"
+authors = ["Shisei Hanai <ruimo.uno@gmail.com>"]
+edition = "2021"
+rust-version = "1.60"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#eframe = "0.18" # Gives us egui, epi and web+native backends
+eframe = { path = "/home/shanai/rust/egui-master/eframe/" }
